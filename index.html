@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Student Grading App</title>
+</head>
+<body>
+
+  <h2>Enter Student Details</h2>
+    <label for="name">Name: </label>
+  <input type="text" id="name" placeholder="Student Name">
+  <br><br>
+
+  <label for="subject">Subject: </label>
+  <input type="text" id="subject" placeholder="Subject">
+  <br><br>
+
+  <label for="marks">Marks: </label>
+  <input type="number" id="marks" placeholder="Marks (0-100)"><br><br>
+
+  <button onclick="submitResult()">Submit</button>
+  <button onclick="clearAll()">Clear All</button>
+
+  <p id="resultMsg"></p>
+  <p id="totalStudents"></p>
+
+  <script src="script.js"></script>
+</body>
+</html>
